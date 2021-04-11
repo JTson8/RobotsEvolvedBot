@@ -1,0 +1,20 @@
+{
+  "name": "Robots-Evolved-Bot",
+  "version": "1.0.0",
+  "description": "Robots Evolved Bot",
+  "main": "robotsEvolvedBot.js",
+  "author": "Jonah Tollefson",
+  "scripts": {
+    "start": "node robotsEvolvedBot.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "ip": "^1.1.5",
+    "winston": "^3.2.1",
+    "xml-js": "^1.6.11",
+    "xml2json": "^0.11.2",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
