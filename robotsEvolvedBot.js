@@ -168,8 +168,8 @@ function checkStreams(callback) {
 			streams.add(stream);
 		});
         var newStreams = compareAndGetNewElements(oldStreams, streams);
-        oldStreams = newStreams;
-        return callback(oldStreams);
+        oldStreams = streams;
+        return callback(newStreams);
     });
 }
 
